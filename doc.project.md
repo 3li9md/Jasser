@@ -34,6 +34,8 @@
 │  │  │  │  │  ->
 │  │     ├─ pipes
 │  │  │  │  │  ->
+|  |  |  |  | savePath.pipe
+|  |  |  |  | => it used to solve error unSave value used in a resource URL context
 │  │     └─ shared.module.ts
 │  ├─ assets
 │  │  ├─ .gitkeep
