@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-blue {
+    background: #203F8B !important;
+
+}
+
+.btn-white {
+    border-radius: 4px;
+    background: white;
+    color: #203F8B;
+}
+
+.container-fluid {
+    background: #F7F7F7;
+}
+
+.bg-light {
+    background: white !important;
+    color: initial   !important;
+}
+
+.text-muted {
+    color: #727272 !important;
+}
+
+.phone {
+    height: 660px;
+    width: auto;
+}

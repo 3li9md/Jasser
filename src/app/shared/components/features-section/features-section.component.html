@@ -1,0 +1,24 @@
+<div id="FeaturesSection" class="container-fluid pt-5" style="padding: 0;">
+    <div class="container bg-light text-light position-relative ms-0 p-5" style="bottom: 100px;">
+        <div class="row">
+            <h3>
+                مميزات تطبيق جسير
+            </h3>
+            <div class="row pt-5">
+                <div *ngFor="let feature of features" class="col-lg-6 col-sm-12 pt-lg-2 pt-sm-3">
+                    <div class="row gap-xl-3 gap-lg-5 gap-md-0 gap-xs-3">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                            <div class="circle">
+                                <img [src]="feature.icon" [alt]="feature.title">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-9 col-sm-8 col-xs-12">
+                            <h5>{{feature.title}}</h5>
+                            <p class="text-muted pt-2"> {{feature.text}} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
