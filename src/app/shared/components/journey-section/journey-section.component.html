@@ -1,1 +1,22 @@
-<p>journey-section works!</p>
+<div class="container-fluid">
+    <div class="container py-5">
+        <h3>
+            رحلة الإستخدام
+        </h3>
+
+        <div class="row pt-5 gap-lg-0 gap-sm-5">
+            <div *ngFor="let step of journeySteps" class="col-auto">
+                <div class="card gap-3">
+                    <!-- icon circle placeholder -->
+                    <!-- <div class="circle d-flex">
+                        <img class="position-absolute" [src]="step.icon" alt="">
+                    </div> -->
+                    <p class="circle">
+                        {{step.id}}
+                    </p>
+                    <p class="fw-bolder">{{step.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

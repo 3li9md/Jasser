@@ -1,0 +1,17 @@
+.card {
+    width: 200px;
+    height: 180px;
+    background: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: none;
+}
+
+// try to unify it with the ones in the features section
+.circle {
+    height: 35px;
+    width:  35px;
+    background: #ED762D;
+    color: white;
+}

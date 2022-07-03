@@ -6,6 +6,8 @@ import { HeroComponent } from './components/hero/hero.component';
 import { FeaturesSectionComponent } from './components/features-section/features-section.component';
 import { DownloadSectionComponent } from './components/download-section/download-section.component';
 import { JourneySectionComponent } from './components/journey-section/journey-section.component';
+import { ContactSectionComponent } from './components/contact-section/contact-section.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { JourneySectionComponent } from './components/journey-section/journey-se
     HeroComponent,
     FeaturesSectionComponent,
     DownloadSectionComponent,
-    JourneySectionComponent
+    JourneySectionComponent,
+    ContactSectionComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule

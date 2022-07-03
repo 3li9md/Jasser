@@ -16,7 +16,7 @@
 
 .bg-light {
     background: white !important;
-    color: initial   !important;
+    color: initial !important;
 }
 
 .text-muted {
@@ -26,4 +26,11 @@
 .phone {
     height: 660px;
     width: auto;
+}
+
+.circle {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
