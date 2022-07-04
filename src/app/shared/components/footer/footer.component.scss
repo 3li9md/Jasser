@@ -1,9 +1,28 @@
+.footer {
+    border-top: 1px solid #72727277 ;
+    padding: 15px;
+}
+
 .circle {
     width: 35px;
     height: 35px;
     background: #E0E4EF;
+    
 }
 
 .icon {
     filter: invert(21%) sepia(51%) saturate(1942%) hue-rotate(203deg) brightness(93%) contrast(97%);
+    width: 60%;
+}  
+
+.copy-right {
+    display: flex;
+}
+
+.copy-right .circle {
+    border: 1px solid #727272;
+    background: none;
+    width: 25px;
+    height: 25px;
+    
 }

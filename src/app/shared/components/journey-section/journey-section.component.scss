@@ -3,15 +3,45 @@
     height: 180px;
     background: white;
     display: flex;
-    padding: 20px;
+    // padding: 20px;
     justify-content: space-between;
     border: none;
+    overflow: hidden;
 }
 
 // try to unify it with the ones in the features section
 .circle {
     height: 35px;
-    width:  35px;
+    width: 35px;
     background: #ED762D;
     color: white;
+    // position: relative;
+    // right: 80%;
+    
+}
+
+.circle-float {
+    background: #FBFBFB;
+    width: 70px;
+    height: 70px;
+    padding: 5px 5px 0px 0px;
+    position: absolute;
+    top: -5%;
+    right: -5%;
+
+}
+
+.card-body {
+    height: auto !important;
+}
+
+
+
+.circle-float img {
+    filter: invert(50%) saturate(7494%) brightness(200%) ;
+    width: 80%;
+    position: relative;
+    scale: calc(0.8);
+    
+
 }

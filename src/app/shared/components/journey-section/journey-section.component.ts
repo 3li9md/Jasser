@@ -12,17 +12,17 @@ export class JourneySectionComponent implements OnInit {
   journeySteps: { id: number, icon: string, title?: string, text: string }[] = [
     {
       id: 1,
-      icon: "assets/images/icons/content-paper.webp",
+      icon: "assets/images/icons/dollar-symbol.webp",
       text: "التقدم بالحصول علي التمويل"
     },
     {
       id: 2,
-      icon: "assets/images/icons/content-paper.webp",
+      icon: "assets/images/icons/pointer.webp",
       text: "الموافقة علي عرض التمويل"
     },
     {
       id: 3,
-      icon: "assets/images/icons/content-paper.webp",
+      icon: "assets/images/icons/multiple-actions.webp",
       text: "التحقق من بيانات العميل"
     },
     {
@@ -32,7 +32,7 @@ export class JourneySectionComponent implements OnInit {
     },
     {
       id: 5,
-      icon: "assets/images/icons/content-paper.webp",
+      icon: "assets/images/icons/money-bag.webp",
       text: "سداد الدفعات بشكل يسير و مبسط"
     },
   ]

@@ -28,9 +28,17 @@
     width: auto;
 }
 
+// global circle
 .circle {
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    text-justify: center;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
 }

@@ -4,17 +4,27 @@
             رحلة الإستخدام
         </h3>
 
-        <div class="row pt-5 gap-lg-0 gap-sm-5">
+        <div class="row pt-5 d-flex justify-content-center gap-xl-0 gy-4 ">
             <div *ngFor="let step of journeySteps" class="col-auto">
                 <div class="card gap-3">
-                    <!-- icon circle placeholder -->
-                    <!-- <div class="circle d-flex">
-                        <img class="position-absolute" [src]="step.icon" alt="">
-                    </div> -->
-                    <p class="circle">
-                        {{step.id}}
-                    </p>
-                    <p class="fw-bolder">{{step.text}}</p>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-auto">
+                            <div class="circle circle-float">
+                                <img class="icon" [src]="step.icon" alt="icon">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="">
+                                <p class="circle">
+                                    {{step.id}}
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-body d-grid ">
+                        <p class="fw-bolder ">{{step.text}}</p>
+                    </div>
                 </div>
             </div>
         </div>
